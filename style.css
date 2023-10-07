@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  border: 0 solid #FFFFFF;
+}
+
+html {
+  line-height: 1.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+html body {
+  min-height: 100%;
+  color: #000;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: #F0F1F3;
+}
+
+#mc {
+  position: relative;
+  min-height: 100dvh;
+  width: 92rem;
+  min-width: 92rem;
+  margin: 0 auto;
+}
+
+.mh-f {
+  min-height: 100dvh;
+}
+
+.df {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.g-1 {
+  gap: 1rem;
+}
+
+.f1 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+.fs0 {
+  flex-shrink: 0;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.aic {
+  align-items: center;
+}
+
+.asfs {
+  align-self: flex-start;
+}
+
+.acc {
+  align-content: center;
+}
+
+.main {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
+.fd {
+  width: 30rem;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.675rem;
+}
+
+.ldh > .g-1 {
+  gap: unset;
+}
+
+.ldh > .jcc {
+  justify-content: center;
+}
+
+.ldh > div > .fd {
+  width: 0!important;
+  padding: 0!important;
+  visibility: hidden;
+}
+
+.bd {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  z-index: 40;
+  display: inline-block;
+  opacity: 1;
+}
+
+.bd > button, .fb {
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0.75rem;
+  height: 2.75rem;
+  cursor: pointer;
+}
+
+.bd > button:hover {
+  background-color: rgba(247,247,248,1);
+}
+.vd {
+  min-width: 768px;
+  max-width: 1024px;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 0.675rem;
+}
+
+video {
+  border-radius: .675rem;
+}
